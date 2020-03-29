@@ -11,6 +11,7 @@ public interface FileReader {
      * be replaced with a newline (\n).</p>
      *
      * @param file the file to read
+     * @return the contents of the file
      * @throws IOException if there is an error.
      */
     String read(File file) throws IOException;

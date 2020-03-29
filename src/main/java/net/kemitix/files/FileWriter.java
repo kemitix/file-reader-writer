@@ -13,6 +13,7 @@ public interface FileWriter {
      *
      * @param file    the file to write
      * @param content the content to write
+     * @throws IOException if there is an error.
      */
     void write(
             File file,
