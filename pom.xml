@@ -46,7 +46,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <tiles>
-                        <tile>net.kemitix.tiles:all-jdk-11:${kemitix-maven-tiles.version}</tile>
+                        <tile>net.kemitix.tiles:all:${kemitix-maven-tiles.version}</tile>
                         <tile>net.kemitix.checkstyle:tile:${kemitix-checkstyle-ruleset.version}</tile>
                     </tiles>
                 </configuration>
